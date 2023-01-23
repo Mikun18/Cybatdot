@@ -26,7 +26,23 @@ const Hero = () => {
           </div>
 
           <div>
-            <img src="./Images/hero-image.png" alt="hero image"style={{position:"relative"}}/>
+            {/* <Design src="./Images/Polygon 2.png" alt="Polygon design" width="750px"/> */}
+            <img
+              src="./Images/Polygon 2.png"
+              alt="Polygon design"
+              style={{
+                width: "750px",
+                position: "absolute",
+                zIndex: "-1",
+                top: "0",
+                right: "0",
+              }}
+            />
+            <img
+              src="./Images/hero-image.png"
+              alt="hero image"
+              style={{ position: "" }}
+            />
           </div>
         </Flex>
       </Box>
@@ -34,13 +50,20 @@ const Hero = () => {
       <Box>
         <Flex second>
           <div>
-            <Rect width="221.82px" height="242.18px" left="508.18px" top="1054.61px" primary/>
-            <img src="./Images/Mask group.png" alt="mask group" width="80%"/>
+            <Rect
+              width="221.82px"
+              height="242.18px"
+              left="508.18px"
+              top="1054.61px"
+              primary
+            />
+            <img src="./Images/Mask group.png" alt="mask group" width="80%" />
           </div>
 
           <div>
-            <H1 width="470px" fs="54px" pad="0 28px" hero >
-              Innovative <span style={{ color: "#0A2493" }}>problem-solving</span>
+            <H1 width="470px" fs="54px" pad="0 28px" hero>
+              Innovative{" "}
+              <span style={{ color: "#0A2493" }}>problem-solving</span>
             </H1>
 
             <P width="455px" fs="18px" pad="28px" primary>
