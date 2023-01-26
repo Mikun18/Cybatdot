@@ -26,8 +26,15 @@ const Hero = () => {
           </div>
 
           <div>
-            {/* <Design src="./Images/Polygon 2.png" alt="Polygon design" width="750px"/> */}
             <img
+              src="./Images/hero-image.png"
+              alt="hero image"
+              style={{ width: "100%", position:"relative", zIndex:"1" }}
+            />
+            <Design pry src="./Images/Polygon 2.png" alt="Polygon design" width="750px"/>
+            <Design sec src="./Images/Polygon 3.png" alt="Polygon design" width="400px"/>
+            <Design ter src="./Images/Polygon 4.png" alt="Polygon design" width="250px"/>
+            {/* <img
               src="./Images/Polygon 2.png"
               alt="Polygon design"
               style={{
@@ -37,12 +44,7 @@ const Hero = () => {
                 top: "0",
                 right: "0",
               }}
-            />
-            <img
-              src="./Images/hero-image.png"
-              alt="hero image"
-              style={{ position: "" }}
-            />
+            /> */}
           </div>
         </Flex>
       </Box>
@@ -57,7 +59,7 @@ const Hero = () => {
               top="1054.61px"
               primary
             />
-            <img src="./Images/Mask group.png" alt="mask group" width="80%" />
+            <img src="./Images/Mask group.png" alt="mask group" style={{ width: "100%" }}/>
           </div>
 
           <div>

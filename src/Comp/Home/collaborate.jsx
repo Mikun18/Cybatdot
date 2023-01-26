@@ -24,7 +24,7 @@ const Collaborate = () => {
 
           <div style={{position:"relative"}}>
             <Rect width="177px" height="193px" right="450px" top="80px" />
-            <img src="./Images/collaborate.png" alt="Collaborate" />
+            <img src="./Images/collaborate.png" alt="Collaborate" style={{width: "100%"}}/>
           </div>
         </Flex>
       </Box>

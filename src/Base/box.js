@@ -5,7 +5,7 @@ export const Box = styled.div`
   background-color: ${(props) => props.bg};
 
   img {
-    width: 100%;
+    /* width: 100%; */
   }
 
   @media(max-width: ${({theme}) => theme.screen.xlg}) {
