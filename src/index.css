@@ -15,13 +15,13 @@ body{
   .slick-list {
     margin: 0 -10px;
   }
-
+ 
   .slick-prev {
-    left: 0% !important;
+    /* left: 3% !important; */
     z-index: 1;
   }
 
   .slick-next {
-    right: 0% !important;
+    right: 3% !important;
     z-index: 1;
   }

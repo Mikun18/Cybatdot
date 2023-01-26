@@ -29,7 +29,7 @@ const Hero = () => {
             <img
               src="./Images/hero-image.png"
               alt="hero image"
-              style={{ width: "100%", position:"relative", zIndex:"1" }}
+              style={{ width: "100%", position:"relative"}}
             />
             <Design pry src="./Images/Polygon 2.png" alt="Polygon design" width="750px"/>
             <Design sec src="./Images/Polygon 3.png" alt="Polygon design" width="400px"/>

@@ -32,18 +32,6 @@ export const Design = styled.img`
     `}
 
   @media(max-width: ${({theme}) => theme.screen.md}){
-    ${(props) =>
-    props.sec &&
-    css`
-      position: absolute;
-      width: 320px;
-      right: 350px;
-      top: 300px;
-      z-index: -1;
-    `}
-  }
-
-  @media(max-width: ${({theme}) => theme.screen.sm}){
     display: none;
   }
 `;
