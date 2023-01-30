@@ -22,6 +22,11 @@ export const Button = styled.button`
         padding: 18px 0;
     `}
 
+    ${props => props.cyba && css`
+        background-color: white;
+        color: #0A0A0A;
+    `}
+
     @media(max-width: ${({theme}) => theme.screen.md}){
         ${props => props.nav && css`
             display: none;

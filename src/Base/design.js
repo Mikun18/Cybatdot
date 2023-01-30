@@ -27,7 +27,6 @@ export const Design = styled.img`
       position: absolute;
       width: ${(props) => props.width};
       right: 10px;
-      /* top: 70px; */
       z-index: -3;
     `}
 

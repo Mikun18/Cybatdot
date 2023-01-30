@@ -5,8 +5,6 @@ import { Flex } from "../../../Base/flex";
 import { Button } from "../../../Base/button";
 import { NewsCard } from "./newsletter";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const Newsletter = () => {
   const settings = {
@@ -20,7 +18,7 @@ const Newsletter = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,

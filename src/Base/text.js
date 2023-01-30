@@ -9,9 +9,13 @@ export const P = styled.p`
   width: ${(props) => props.width};
   padding: ${props => props.pad};
 
+  ${props => props.cyba && css`
+    color: white;
+  `}
+
   @media(max-width: ${({theme}) => theme.screen.lg}){
     ${(props) => props.slide && css`
-      width: 100%;
+      width: 95%;
     `}
   }
 
@@ -41,6 +45,11 @@ export const H1 = styled.h1`
   width: ${(props) => props.width};
   text-align: ${props => props.align};
   padding: ${props => props.pad};
+  margin-top: ${props => props.mt};
+
+  ${props => props.cyba && css`
+    color: white;
+  `}
 
   @media(max-width: ${({theme}) => theme.screen.md}){
     font-size: 50px;

@@ -17,11 +17,29 @@ body{
   }
  
   .slick-prev {
-    /* left: 3% !important; */
+    left: -3% !important;
     z-index: 1;
   }
 
   .slick-next {
-    right: 3% !important;
+    /* right: 3% !important; */
     z-index: 1;
+  }
+
+  @media(max-width: 840px){
+    .slick-prev{
+      left: -6% !important;
+    }
+  }
+
+  @media(max-width: 640px){
+    .slick-prev {
+      left: 3% !important;
+      z-index: 1;
+    }
+  
+    .slick-next {
+      right: 8% !important;
+      z-index: 1;
+    }
   }

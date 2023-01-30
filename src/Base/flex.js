@@ -5,6 +5,10 @@ export const Flex = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    ${props => props.cyba && css`
+      align-items: flex-start;
+    `}
+
     @media(max-width: ${({theme}) => theme.screen.sm}){
       flex-direction: column;
 

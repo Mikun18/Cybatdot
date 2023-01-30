@@ -1,8 +1,6 @@
 import React from "react";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Card, ImageText} from "./expertise";
 import { Button } from "../../../Base/button";

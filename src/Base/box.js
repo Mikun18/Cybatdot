@@ -4,9 +4,9 @@ export const Box = styled.div`
   padding: 50px 140px;
   background-color: ${(props) => props.bg};
 
-  img {
-    /* width: 100%; */
-  }
+  ${props => props.cyba && css`
+    position: relative;
+  `}
 
   @media(max-width: ${({theme}) => theme.screen.xlg}) {
     padding: 50px 80px;
@@ -70,3 +70,14 @@ export const Slide = styled.div`
     }
 
 `;
+
+export const ContentCon = styled.div`
+  padding: ${props => props.pad};
+  text-align: justify;
+`
+
+export const Image = styled.img`
+  width: 100%;
+  position: absolute;
+  min-height: 580px;
+`

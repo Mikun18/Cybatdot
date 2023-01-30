@@ -1,6 +1,6 @@
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "./slick.css";
+import "./slick-theme.css";
 import Slider from "react-slick";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
