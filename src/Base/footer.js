@@ -20,7 +20,7 @@ export const FooterGrid = styled.div`
     margin: 28px 0;
     padding: 28px 0;
 
-    @media(max-width: ${({theme}) => theme.screen.sm}) {
+    @media(max-width: ${({theme}) => theme.screen.md}) {
       grid-template-columns: repeat(3, 1fr);
     }
 `
