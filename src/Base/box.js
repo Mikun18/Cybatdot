@@ -74,6 +74,8 @@ export const Slide = styled.div`
 export const ContentCon = styled.div`
   padding: ${props => props.pad};
   text-align: justify;
+  width: 794px;
+  margin: auto;
 `
 
 export const Image = styled.img`

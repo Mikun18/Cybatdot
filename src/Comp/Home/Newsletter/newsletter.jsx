@@ -115,22 +115,6 @@ const Newsletter = () => {
 
               <button>Read More</button>
             </NewsCard>
-
-            <NewsCard>
-              <img src="./Images/award.png" alt="Award" />
-
-              <P fs="24px" width="327px" pad="25px 0px" slide>
-                Cybadot Technologies Secures $50M Send Funding to Further
-                Cybalife
-              </P>
-              <P fs="18px" width="305px" slide>
-                Cybalife tackles severe problems and provides a complete
-                diagnosis for chronic conditions with the ability to perform
-                huge computations and manipulate omics...
-              </P>
-
-              <button>Read More</button>
-            </NewsCard>
           </Slider>
         </div>
       </Slide>

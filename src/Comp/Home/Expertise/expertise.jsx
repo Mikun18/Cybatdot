@@ -2,7 +2,7 @@ import React from "react";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
 import Slider from "react-slick";
-import { Card, ImageText} from "./expertise";
+import { Card, ImageText } from "./expertise";
 import { Button } from "../../../Base/button";
 
 const Expertise = () => {
@@ -60,53 +60,174 @@ const Expertise = () => {
 
       <Slider {...settings}>
         <Card>
-          
-              <img src="./Images/security.png" alt="Cyber Security" style={{position: "relative"}}/>
-              <ImageText>Cyber Security</ImageText>
+          <img
+            src="./Images/security.png"
+            alt="Cyber Security"
+            style={{ position: "relative" }}
+          />
+          <ImageText>Cyber Security</ImageText>
 
-            <div >
-              <P width="309px" pad="0 15px" slide>
-                Management Technology solutions for detection and prevention of
-                threats
-              </P>
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              The Cybadot team is committed to network security, and they have
+              created difficult and fundamental solutions for monitoring, threat
+              detection, and attack prevention.
+            </P>
 
-              <button style={{margin: "0 15px", paddingTop:"60px"}}>Learn More</button>
-            </div>
-         
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
         </Card>
 
         <Card>
-          
           <img src="./Images/engineering.png" alt="Reverse Engineering" />
           <ImageText>Reverse Engineering</ImageText>
 
           <div>
-            <P width="309px" pad="0 15px" slide>
-              Management Technology solutions for detection and prevention of
-              threats
+            <P width="90%" pad="0 15px" slide>
+              We acquired reverse engineering abilities because of our work on
+              complex security projects, which is comparatively uncommon in the
+              IT industry.
             </P>
 
-            <button style={{margin: "0 15px", paddingTop:"60px"}}>Learn More</button>
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
           </div>
-       </Card>
+        </Card>
 
         <Card>
-          
           <img src="./Images/computing.png" alt="Cloud Computing" />
           <ImageText>Cloud Computing</ImageText>
 
           <div>
-            <P width="309px" pad="0 15px" slide>
-              Management Technology solutions for detection and prevention of
-              threats
+            <P width="90%" pad="0 15px" slide>
+              We at Cybadot offer infrastructure development and management
+              services that enable us to use networks, virtual machines, cloud
+              services, and databases quickly and efficiently.
             </P>
 
-            <button style={{margin: "0 15px", paddingTop:"60px"}}>Learn More</button>
+            <button style={{ margin: "0 15px", paddingTop: "40px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+
+        <Card>
+          <img
+            src="./Images/Blockchain Technology.jpg"
+            alt="Blockchain Technology"
+          />
+          <ImageText>Blockchain</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              Cybadot assists companies in utilizing the blockchain's full
+              potential to produce effective and secure products.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "80px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/AI&ML.jpg" alt="artificial intelligence" />
+          <ImageText>AI&ML</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              Experts from Cybadot can assist you in implementing cutting-edge
+              AI technologies to increase the intelligence of your company.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/Embedded software.jpg" alt="Embedded software" />
+          <ImageText>Embedded software</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              The advantages of the embedded system include their portability,
+              energy efficiency, small size, and real-time response.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/Mobile Solutions.jpg" alt="Mobile Solutions" />
+          <ImageText>Mobile Solutions</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              Mobile apps make daily routines easier and more enjoyable, and
+              they have become an essential part of our lives due to mobile
+              devices.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/Security Testing.jpg" alt="Security Testing" />
+          <ImageText>Security Testing</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              Security testing conducted before deployment can identify software
+              flaws. It is crucial for software that manages or stores private
+              information.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/Quaity assurance.jpg" alt="Quality assurance" />
+          <ImageText>Quality Assurance</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              Security and penetration testing are among the full-stack quality
+              assurance and software testing services offered by Cybadot.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <img src="./Images/Websolutions.jpg" alt="web solutions" />
+          <ImageText>Web Solutions</ImageText>
+
+          <div>
+            <P width="90%" pad="0 15px" slide>
+              We have a long history of offering bespoke web application
+              development services utilizing the ASP.NET MVC framework at
+              Cybadot.
+            </P>
+
+            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+              Learn More
+            </button>
           </div>
         </Card>
       </Slider>
 
-      <div style={{textAlign: "center", padding:"40px 0"}}>
+      <div style={{ textAlign: "center", padding: "40px 0" }}>
         <Button style={{ backgroundColor: "#EDF0FF", color: "#141414" }}>
           See all Solutions
         </Button>
