@@ -117,7 +117,7 @@ const Newsletter = () => {
             </NewsCard>
 
             <NewsCard>
-              <img src="./Images/award.png" alt="Award Image" />
+              <img src="./Images/award.png" alt="Award" />
 
               <P fs="24px" width="327px" pad="25px 0px" slide>
                 Cybadot Technologies Secures $50M Send Funding to Further

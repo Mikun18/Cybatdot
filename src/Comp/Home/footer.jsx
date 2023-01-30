@@ -11,7 +11,7 @@ const Footer = () => {
             <FooterGrid>
                 <div>
                     <P pad="15px 0"><b>Industries</b></P>
-                    <P pad="5px 0">Healthcare</P>
+                    <P pad="5px 0" fs="16px">Healthcare</P>
                     <P>Agriculture</P>
                     <P pad="5px 0">Energy Productions</P>
                     <P>E-commerce</P>
