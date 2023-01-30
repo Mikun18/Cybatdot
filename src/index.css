@@ -34,12 +34,24 @@ body{
 
   @media(max-width: 640px){
     .slick-prev {
-      left: 3% !important;
+      left: -10% !important;
       z-index: 1;
     }
   
     .slick-next {
-      right: 8% !important;
+      right: -5% !important;
+      z-index: 1;
+    }
+  }
+
+  @media(max-width: 415px){
+    .slick-prev {
+      left: 2% !important;
+      z-index: 1;
+    }
+  
+    .slick-next {
+      right: 11% !important;
       z-index: 1;
     }
   }

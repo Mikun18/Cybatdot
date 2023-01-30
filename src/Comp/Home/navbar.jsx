@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Flex } from "../../Base/flex";
 import { Button } from "../../Base/button";
-import { Nav, SmallerNavbar, Icon, SideBarBg, SideModal } from "../../Base/nav";
+import { Nav, SmallerNavbar, Icon, SideModal } from "../../Base/nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { motion, AnimatePresence } from "framer-motion";

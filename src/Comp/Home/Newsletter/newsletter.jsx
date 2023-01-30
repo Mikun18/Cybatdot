@@ -70,7 +70,7 @@ const Newsletter = () => {
         <div style={{ margin: "40px 0" }}>
           <Slider {...settings}>
             <NewsCard>
-              <img src="./Images/award.png" alt="Award Image" />
+              <img src="./Images/award.png" alt="Award" />
 
               <P fs="24px" width="327px" pad="25px 0px" slide>
                 Cybadot Technologies Secures $50M Send Funding to Further
@@ -86,7 +86,7 @@ const Newsletter = () => {
             </NewsCard>
 
             <NewsCard>
-              <img src="./Images/patterns.png" alt="Patient Image" />
+              <img src="./Images/patterns.png" alt="Patient" />
 
               <P fs="24px" width="327px" pad="25px 0px" slide>
                 AI analyzes patterns in patient data
@@ -103,7 +103,7 @@ const Newsletter = () => {
             </NewsCard>
 
             <NewsCard>
-              <img src="./Images/healthcare.png" alt="HealthCare Image" />
+              <img src="./Images/healthcare.png" alt="HealthCare" />
 
               <P fs="24px" width="327px" pad="25px 0px" slide>
                 4 Ways Cybalife is transforming the healthcare industry

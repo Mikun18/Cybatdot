@@ -28,7 +28,7 @@ const Hero = () => {
           <div>
             <img
               src="./Images/hero-image.png"
-              alt="hero image"
+              alt="hero"
               style={{ width: "100%", position:"relative"}}
             />
             <Design pry src="./Images/Polygon 2.png" alt="Polygon design" width="750px"/>
