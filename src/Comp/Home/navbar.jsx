@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Flex } from "../../Base/flex";
 import { Button } from "../../Base/button";
 import { Nav, SmallerNavbar, Icon, SideModal } from "../../Base/nav";
@@ -11,7 +12,9 @@ const Navbar = () => {
     <div>
       <Nav>
         <div>
-          <img src="./Images/logo.svg" alt="logo" />
+          <Link to="/">
+            <img src="./Images/logo.svg" alt="logo" />
+          </Link>
         </div>
 
         <Flex>
@@ -19,7 +22,9 @@ const Navbar = () => {
           <p>Our Innovation</p>
           <p>Company</p>
           <p>Blog</p>
+          <Link to="/contact">
           <Button nav>Book a demo</Button>
+          </Link>
         </Flex>
       </Nav>
 

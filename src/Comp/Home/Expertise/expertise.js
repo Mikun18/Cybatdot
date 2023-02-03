@@ -40,22 +40,48 @@ export const ImageText = styled.p`
   font-size: 18px;
 `
 
-// export const SmallerCard = styled.section`
-//   @media (max-width: ${({ theme }) => theme.screen.sm}) {
-//     display: flex;
-//     flex-direction: row;
-//     width: 100%;
+export const SliderButton= styled.button`
+  border-radius: 999px;
+  background-color: ${props => props.bg};
+  display:grid;
+  place-items:center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:  ${(props) => props.left};
+  right: ${props => props.right};
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+`
 
-//    button{
-//     padding-top: 60px;
-//    }
+export const SliderDot = styled.div`
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
-//    div{
-//     /* padding: 50px 15px; */
-//    }
+  ul{
+    list-style: none;
+  }
+`
 
-//     p{
-//       width: 100%;
-//     }
-//   }
-// `;
+export const Bull = styled.div`
+   border: 2px solid #EDF0FF;
+  border-radius: 100%;
+  position: relative;
+  width: 0.8em; height: 0.8em;
+
+  &::before{
+    content: "";
+  display: block;
+  position: absolute;
+  width: 0.5em; height: 0.5em;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #EDF0FF;
+  border-radius: 100%;
+  }
+`

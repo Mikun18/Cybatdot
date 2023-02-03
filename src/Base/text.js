@@ -25,6 +25,11 @@ export const P = styled.p`
     ${props => props.primary && css`
       padding: 28px 0;
     `}
+
+    ${props => props.cybalife && css`
+      width: 90%;
+      padding: 15px;
+    `}
   }
 
   @media (max-width: ${({ theme }) => theme.screen.mobile}){
@@ -32,6 +37,11 @@ export const P = styled.p`
 
     ${props => props.slide && css`
       width: 95%;
+    `}
+
+    ${props => props.cybalife && css`
+      width: 90%;
+      padding: 15px;
     `}
   }
 `;
@@ -45,14 +55,19 @@ export const H1 = styled.h1`
   width: ${(props) => props.width};
   text-align: ${props => props.align};
   padding: ${props => props.pad};
-  margin-top: ${props => props.mt};
-
+  
   ${props => props.cyba && css`
+  margin-top: ${props => props.mt};
     color: white;
   `}
 
   @media(max-width: ${({theme}) => theme.screen.md}){
     font-size: 50px;
+
+    ${props => props.cybalife && css`
+      font-size: 24px;
+      padding: 10px 15px;
+    `}
   }
 
   @media(max-width: ${({theme}) => theme.screen.sm}){
@@ -62,6 +77,23 @@ export const H1 = styled.h1`
       font-size: 68px;
       padding: 0;
     `}
+
+    ${props => props.cybalife && css`
+      padding: 10px 15px;
+    `}
+
+  }
+
+  @media(max-width: ${({theme}) => theme.screen.xsm}){
+    ${props => props.cyba && css`
+      margin-top: 0px;
+    `}
+
+    ${props => props.cybalife && css`
+      padding: 10px 15px;
+      width: 90%;
+      font-size: 24px;
+    `}
   }
 
   @media (max-width: ${({ theme }) => theme.screen.mobile}){
@@ -69,6 +101,12 @@ export const H1 = styled.h1`
 
     ${props => props.expert && css`
       padding: 28px 0;
+    `}
+
+    ${props => props.cybalife && css`
+      font-size: 18px;
+      width: 80%;
+      font-weight: 700;
     `}
   }
 `;

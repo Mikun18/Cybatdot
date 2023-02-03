@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
 import Slider from "react-slick";
 import { Card, ImageText } from "./expertise";
 import { Button } from "../../../Base/button";
+import { SliderButton, SliderDot, Bull } from "./expertise";
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
 
 const Expertise = () => {
   const settings = {
@@ -13,6 +17,39 @@ const Expertise = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    dotsClass: "slick-dots bull-white",
+    prevArrow: (
+      <SliderButton left="40px" bg="#EDF0FF">
+        <img
+          src="./Images/prev-blue.png"
+          alt="prev-button"
+          style={{ width: "100%" }}
+        />
+      </SliderButton>
+    ),
+    nextArrow: (
+      <SliderButton right="-45px" bg="#EDF0FF">
+        <img
+          src="./Images/next-blue.png"
+          alt="next-button"
+          style={{ width: "100%" }}
+        />
+      </SliderButton>
+    ),
+    customPaging: (index) => {
+      return (
+        <div style={{ position: "absolute", top: "0px", opacity:"0" }}>
+          {index}
+        </div>
+      );
+    },
+    appendDots: (dots) => {
+      return (
+        <SliderDot style={{position:"relative"}}>
+          <p style={{display:'flex'}}>{dots}</p>
+        </SliderDot>
+      )
+    },
     responsive: [
       {
         breakpoint: 1024,
@@ -74,9 +111,11 @@ const Expertise = () => {
               detection, and attack prevention.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
-              Learn More
-            </button>
+            <Link to="/cyba-security">
+              <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+                Learn More
+              </button>
+            </Link>
           </div>
         </Card>
 
@@ -91,9 +130,11 @@ const Expertise = () => {
               IT industry.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
-              Learn More
-            </button>
+            <Link to="/reverse-engineering">
+              <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+                Learn More
+              </button>
+            </Link>
           </div>
         </Card>
 
@@ -108,9 +149,11 @@ const Expertise = () => {
               services, and databases quickly and efficiently.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "40px" }}>
-              Learn More
-            </button>
+            <Link to="/cloud-computing">
+              <button style={{ margin: "6% 15px", cursor: "pointer" }}>
+                Learn More
+              </button>
+            </Link>
           </div>
         </Card>
 
@@ -127,7 +170,7 @@ const Expertise = () => {
               potential to produce effective and secure products.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "80px" }}>
+            <button style={{ margin: "15% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -142,7 +185,7 @@ const Expertise = () => {
               AI technologies to increase the intelligence of your company.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -157,7 +200,7 @@ const Expertise = () => {
               energy efficiency, small size, and real-time response.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -173,7 +216,7 @@ const Expertise = () => {
               devices.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -189,7 +232,7 @@ const Expertise = () => {
               information.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -204,7 +247,7 @@ const Expertise = () => {
               assurance and software testing services offered by Cybadot.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>
@@ -220,7 +263,7 @@ const Expertise = () => {
               Cybadot.
             </P>
 
-            <button style={{ margin: "0 15px", paddingTop: "60px" }}>
+            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
             </button>
           </div>

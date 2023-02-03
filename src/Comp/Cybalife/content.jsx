@@ -6,8 +6,8 @@ const Content = () => {
   return (
     <div>
       <ContentCon pad="100px 0%">
-        <H1 FS="24px" pad="10px 0">ABOUT CYBALIFE</H1>
-        <P width="" fs="20px" pad="15px 0">
+        <H1 FS="24px" pad="10px 0" cybalife>ABOUT CYBALIFE</H1>
+        <P width="" fs="20px" pad="15px 0" cybalife>
           Cybalife tackles severe problems and provides a complete diagnosis for
           chronic conditions with the ability to perform huge computations and
           manipulate omics and electronic health record data. The multi-omics
@@ -18,7 +18,7 @@ const Content = () => {
           information to increase the possibility of identifying the root causes
           of disease.
         </P>{" "}
-        <P width="" fs="20px" pad="15px 0">
+        <P width="" fs="20px" pad="15px 0" cybalife>
           And the addition of an electronic health record (EHR). Real-time,
           patient-centered records that contain details of the medical history,
           medications, allergies, radiology images, treatment plans, and
@@ -27,14 +27,14 @@ const Content = () => {
           is crowded with technology that enables machines to solve many complex
           decision-making tasks.
         </P>{" "}
-        <P width="" fs="20px" pad="15px 0">
+        <P width="" fs="20px" pad="15px 0" cybalife>
           Cybalife is a three-variation solution. One of them is that of the
           smartphone as a mobile application. Cybalife leverages mobile sensors
           to provide a point of care (POC). The POC will allow easy generation
           of diagnostic results quickly so that appropriate treatment can be
           implemented, leading to an improved clinical or economic outcome.
         </P>{" "}
-        <P width="" fs="20px" pad="15px 0">
+        <P width="" fs="20px" pad="15px 0" cybalife>
           In general, Cybalife has one of its roots in the epidemiological
           modeling approach, such as SIR, SEIR, and SEAICRloop. Epidemiological
           modeling uses mathematical, statistical, and computational tools to

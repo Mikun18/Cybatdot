@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../Comp/Home/navbar'
-import Hero from '../Comp/Cybalife/hero'
-import Content from '../Comp/Cybalife/content'
+import Hero from '../Comp/Cloud/hero'
+import Content from '../Comp/Cloud/content'
 import { Image } from '../Base/box'
 import Collaborate from '../Comp/Home/collaborate'
 import Footer from '../Comp/Home/footer'
 
-const Cybalife = () => {
+const CloudComp = () => {
   return (
     <div>
         <Navbar />
@@ -16,9 +16,9 @@ const Cybalife = () => {
           <Image src='./Images/Ellipse.png' alt="ellipse" cybalife/>
           <Collaborate />
         </div>
-        <Footer />
+          <Footer />
     </div>
   )
 }
 
-export default Cybalife
+export default CloudComp

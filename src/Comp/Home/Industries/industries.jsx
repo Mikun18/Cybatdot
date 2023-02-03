@@ -1,10 +1,12 @@
 import React from "react";
 import "./slick.css";
-import "./slick-theme.css";
+// import "./slick-theme.css";
 import Slider from "react-slick";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
 import { Sector, Icon } from "./industries";
+import { SliderButton, SliderDot } from "../Expertise/expertise";
+import { Link } from "react-router-dom";
 
 const Industries = () => {
   const settings = {
@@ -14,6 +16,39 @@ const Industries = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
+    dotsClass: "slick-dots bull-blue",
+    prevArrow: (
+      <SliderButton left="40px" bg="#0A2493">
+        <img
+          src="./Images/prev-white.png"
+          alt="prev-button"
+          style={{ width: "100%" }}
+        />
+      </SliderButton>
+    ),
+    nextArrow: (
+      <SliderButton right="-45px" bg="#0A2493">
+        <img
+          src="./Images/next-white.png"
+          alt="next-button"
+          style={{ width: "100%" }}
+        />{" "}
+      </SliderButton>
+    ),
+    customPaging: (index) => {
+      return (
+        <div style={{ position: "absolute", top: "0px", opacity:"0" }}>
+          {index}
+        </div>
+      );
+    },
+    appendDots: (dots) => {
+      return (
+        <SliderDot style={{position:"relative"}}>
+          <p style={{display:'flex'}}>{dots}</p>
+        </SliderDot>
+      )
+    },
     responsive: [
       {
         breakpoint: 1024,
@@ -107,7 +142,7 @@ const Industries = () => {
                 Healthcare
               </P>
 
-              <button>Learn more</button>
+              <Link to="/cybalife"><button>Learn more</button></Link>
             </Sector>
             <Sector>
               <div>

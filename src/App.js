@@ -1,9 +1,17 @@
-import React from "react";
+import React,{lazy,Suspense} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./Global.js"
+import ScrollToTop from "./Comp/ScrollToTop.js";
 import Home from "./Pages/home.js";
-import Cybalife from "./Pages/cybalife.js";
+// import Cybalife from "./Pages/cybalife.js";
+// import Security from "./Pages/security.js";
+import ReverseEng from "./Pages/reverseEng.js";
+import CloudComp from "./Pages/cloudComp.js";
+import Contact from "./Pages/contact.js";
+
+const Cybalife =lazy(()=>import("./Pages/cybalife.js"))
+const Security =lazy(()=>import("./Pages/security.js"))
 
 const theme = {
   screen: {
@@ -29,14 +37,21 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <div className="App">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cybalife" element={<Cybalife />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+      <Suspense fallback={<div>loading</div>}>
+        <div className="App">
+          <BrowserRouter>
+          <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cybalife" element={<Cybalife />} />
+              <Route path="/cyba-security" element={<Security />} />
+              <Route path="/reverse-engineering" element={<ReverseEng />} />
+              <Route path="/cloud-computing" element={<CloudComp />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
+      </Suspense>
     </ThemeProvider>
   );
 }

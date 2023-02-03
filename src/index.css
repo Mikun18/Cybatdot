@@ -9,6 +9,57 @@ body{
     font-family: 'Avenir LT Std', sans-serif;
 }
 
+.bull-white li{
+border: 2px solid #EDF0FF;
+border-radius: 100%;
+position: relative;
+width: 0.8em; height: 0.8em;
+cursor: pointer;
+list-style: none;
+margin: 20px 4px;
+opacity: 0.5;
+}
+
+.bull-white li::before{
+content: "";
+display: block;
+position: absolute;
+width: 0.5em; height: 0.5em;
+top: 50%; left: 50%;
+transform: translate(-50%, -50%);
+background: #EDF0FF;
+border-radius: 100%;
+}
+
+.bull-white .slick-active {
+  opacity: 1;
+}
+.bull-blue .slick-active {
+  opacity: 1;
+}
+
+.bull-blue li{
+  border: 2px solid #0A2493;
+  border-radius: 100%;
+  position: relative;
+  width: 0.8em; height: 0.8em;
+  cursor: pointer;
+  list-style: none;
+  margin: 20px 4px;
+  opacity: 0.5;
+  }
+
+  .bull-blue li::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0.5em; height: 0.5em;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0A2493;
+    border-radius: 100%;
+    }
+
 .slick-slide > div {
     margin: 0 10px;
   }
