@@ -15,7 +15,7 @@ const Hero = () => {
               Talk to a Professional
             </H1>
 
-            <P width="443px" fs="18px" pad="28px 0" cyba>
+            <P width="443px" fs="20px" pad="28px 0" cyba>
               Learn more about our Innovations and talk to us about the
               challenges you want to solve. We want to solve them with you.
             </P>

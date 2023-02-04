@@ -5,7 +5,7 @@ import { H1, P } from "../../../Base/text";
 import Slider from "react-slick";
 import { Card, ImageText } from "./expertise";
 import { Button } from "../../../Base/button";
-import { SliderButton, SliderDot, Bull } from "./expertise";
+import { SliderButton, SliderDot} from "./expertise";
 // import "slick-carousel/slick/slick.css"; 
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -19,7 +19,7 @@ const Expertise = () => {
     initialSlide: 0,
     dotsClass: "slick-dots bull-white",
     prevArrow: (
-      <SliderButton left="40px" bg="#EDF0FF">
+      <SliderButton left="-60px" bg="#EDF0FF" >
         <img
           src="./Images/prev-blue.png"
           alt="prev-button"
@@ -28,7 +28,7 @@ const Expertise = () => {
       </SliderButton>
     ),
     nextArrow: (
-      <SliderButton right="-45px" bg="#EDF0FF">
+      <SliderButton right="-60px" bg="#EDF0FF" next>
         <img
           src="./Images/next-blue.png"
           alt="next-button"

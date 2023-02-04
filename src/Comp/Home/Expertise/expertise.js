@@ -55,6 +55,18 @@ export const SliderButton= styled.button`
   padding: 5px;
   border: none;
   cursor: pointer;
+  margin: ${props => props.margin};
+
+  @media(max-width: ${({theme}) => theme.screen.mobile}){
+    top: 30%;
+    /* margin: 0; */
+    right: 0px;
+     ${props => props.next}{
+      right: 0px; 
+      left: 0px;
+    } 
+  }
+
 `
 
 export const SliderDot = styled.div`

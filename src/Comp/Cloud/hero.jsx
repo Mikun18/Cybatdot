@@ -15,7 +15,7 @@ const Hero = () => {
               Cloud Computing Solutions
             </H1>
 
-            <P width="443px" fs="18px" pad="28px 0" cyba>
+            <P width="443px" fs="20px" pad="28px 0" cyba>
               We at Cybadot offer infrastructure development and management
               services that enable us to use networks, virtual machines, cloud
               services, and databases quickly and efficiently.

@@ -94,6 +94,10 @@ export const H1 = styled.h1`
       width: 90%;
       font-size: 24px;
     `}
+
+    ${props => props.expert && css`
+      padding: 28px 0;
+    `}
   }
 
   @media (max-width: ${({ theme }) => theme.screen.mobile}){

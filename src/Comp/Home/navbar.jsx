@@ -40,7 +40,9 @@ const SmallerNav = () => {
     <div>
       <SmallerNavbar>
         <div>
-          <img src="./Images/logo.svg" alt="logo" />
+          <Link to="/">
+          `<img src="./Images/logo.svg" alt="logo" />
+          </Link>
         </div>
 
         <Icon onClick={() => setShowModal(true)}>
@@ -107,7 +109,7 @@ const SideBar = ({ setShowModal }) => {
           <p style={{ padding: "20px 0", fontSize: "24px" }}>Our Innovation</p>
           <p style={{ padding: "20px 0", fontSize: "24px" }}>Company</p>
           <p style={{ padding: "20px 0", fontSize: "24px" }}>Blog</p>
-          <Button sidebar>Book a demo</Button>
+         <Link to="/contact"><Button sidebar onClick={() => setShowModal(false)}>Book a demo</Button></Link>
         </div>
       </SideModal>
     </motion.div>

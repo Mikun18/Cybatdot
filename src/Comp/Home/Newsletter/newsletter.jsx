@@ -17,7 +17,7 @@ const Newsletter = () => {
     initialSlide: 0,
     dotsClass: "slick-dots bull-blue",
     prevArrow: (
-      <SliderButton left="40px" bg="#0A2493">
+      <SliderButton left="-60px" bg="#0A2493">
         <img
           src="./Images/prev-white.png"
           alt="prev-button"
@@ -26,7 +26,7 @@ const Newsletter = () => {
       </SliderButton>
     ),
     nextArrow: (
-      <SliderButton right="-45px" bg="#0A2493">
+      <SliderButton right="-45px" bg="#0A2493" next>
         <img
           src="./Images/next-white.png"
           alt="next-button"

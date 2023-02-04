@@ -13,7 +13,7 @@ const Hero = () => {
           <div>
             <H1 width="708px" fs="68px" mt="80px" cyba>Reverse Engineering Solutions</H1>
 
-            <P width="443px" fs="18px" pad="28px 0" cyba>
+            <P width="443px" fs="20px" pad="28px 0" cyba>
               We acquired reverse engineering abilities because of our work on
               complex security projects, which is comparatively uncommon in the
               IT industry.

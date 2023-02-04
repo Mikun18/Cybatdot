@@ -4,14 +4,13 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./Global.js"
 import ScrollToTop from "./Comp/ScrollToTop.js";
 import Home from "./Pages/home.js";
-// import Cybalife from "./Pages/cybalife.js";
-// import Security from "./Pages/security.js";
-import ReverseEng from "./Pages/reverseEng.js";
-import CloudComp from "./Pages/cloudComp.js";
-import Contact from "./Pages/contact.js";
 
 const Cybalife =lazy(()=>import("./Pages/cybalife.js"))
 const Security =lazy(()=>import("./Pages/security.js"))
+const ReverseEng =lazy(()=>import("./Pages/reverseEng.js"))
+const CloudComp = lazy(()=>import("./Pages/cloudComp.js"))
+const Contact = lazy(() => import("./Pages/contact.js"))
+
 
 const theme = {
   screen: {

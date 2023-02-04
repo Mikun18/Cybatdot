@@ -68,7 +68,7 @@ border-radius: 100%;
   }
  
   .slick-prev {
-    left: -3% !important;
+    /* left: -3% !important; */
     z-index: 1;
   }
 
@@ -79,30 +79,6 @@ border-radius: 100%;
 
   @media(max-width: 840px){
     .slick-prev{
-      left: -6% !important;
-    }
-  }
-
-  @media(max-width: 640px){
-    .slick-prev {
-      left: -10% !important;
-      z-index: 1;
-    }
-  
-    .slick-next {
-      right: -5% !important;
-      z-index: 1;
-    }
-  }
-
-  @media(max-width: 415px){
-    .slick-prev {
-      left: 2% !important;
-      z-index: 1;
-    }
-  
-    .slick-next {
-      right: 11% !important;
-      z-index: 1;
+      /* left: -6% !important; */
     }
   }

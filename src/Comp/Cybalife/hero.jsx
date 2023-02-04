@@ -18,7 +18,7 @@ const Hero = () => {
               AI for Healthcare
             </H1>
 
-            <P width="443px" fs="18px" pad="28px 0" cyba>
+            <P width="443px" fs="20px" pad="28px 0" cyba>
               Cybalife tackles severe problems and provides a complete diagnosis
               for chronic conditions with the ability to perform huge
               computations and manipulate omics and electronic health record

@@ -27,7 +27,7 @@ const Hero = () => {
 
           <div>
             <img
-              src="./Images/hero-image.png"
+              src="./Images/opt-hero-image.png"
               alt="hero"
               style={{ width: "100%", position:"relative"}}
             />
