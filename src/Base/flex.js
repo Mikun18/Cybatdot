@@ -4,6 +4,7 @@ export const Flex = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: ${props => props.width};
 
     ${props => props.cyba && css`
       align-items: flex-start;
@@ -15,6 +16,11 @@ export const Flex = styled.div`
 
     ${props => props.check && css`
       justify-content: initial;
+    `}
+
+    ${props => props.blog && css`
+      justify-content: center;
+      margin: 6% ;
     `}
 
     @media(max-width: ${({theme}) => theme.screen.md}){
@@ -36,6 +42,10 @@ export const Flex = styled.div`
 
       ${props => props.bio && css`
         flex-direction: row;
+      `}
+
+      ${props => props.blog && css`
+        flex-direction: column-reverse;
       `}
     }
 `

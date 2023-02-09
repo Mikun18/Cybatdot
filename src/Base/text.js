@@ -17,6 +17,11 @@ export const P = styled.p`
     ${(props) => props.slide && css`
       width: 95%;
     `}
+
+    ${props => props.blog && css`
+      width: 100%;
+      font-size: 13px;
+    `}
   }
 
   @media(max-width: ${({theme}) => theme.screen.sm}){
@@ -61,12 +66,24 @@ export const H1 = styled.h1`
     color: white;
   `}
 
+  @media(max-width: ${({theme}) => theme.screen.lg}){
+    ${props => props.blog && css`
+      width: 100%;
+      font-size: 24px;
+    `}
+  }
+
   @media(max-width: ${({theme}) => theme.screen.md}){
     font-size: 50px;
 
     ${props => props.cybalife && css`
       font-size: 24px;
       padding: 10px 15px;
+    `}
+
+    ${props => props.blog && css`
+      width: 100%;
+      font-size: 24px;
     `}
   }
 

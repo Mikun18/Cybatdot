@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <div>
       <FooterCon>
-        <img src="./Images/logo.svg" alt="Cybadot Logo" width="173px" />
+        <Link to="/"><img src="./Images/logo.svg" alt="Cybadot Logo" width="173px" /></Link>
 
         <FooterGrid>
           <div>
             <P pad="15px 0">
               <b>Industries</b>
             </P>
-            <Link to="/cybalife" style={{textDecoration:"none"}}>
+            <Link to="/cybalife" style={{ textDecoration: "none" }}>
               <P pad="5px 0" fs="16px">
                 Healthcare
               </P>
@@ -31,9 +31,15 @@ const Footer = () => {
             <P pad="15px 0">
               <b>Expertise</b>
             </P>
-            <Link to="/cyba-security" style={{textDecoration:"none"}}><P pad="5px 0">Cyber Security</P></Link>
-            <Link to="/reverse-engineering" style={{textDecoration:"none"}}><P>Reverse Engineering</P></Link>
-            <Link to="/cloud-computing" style={{textDecoration:"none"}}><P pad="5px 0">Cloud Computing</P></Link>
+            <Link to="/cyba-security" style={{ textDecoration: "none" }}>
+              <P pad="5px 0">Cyber Security</P>
+            </Link>
+            <Link to="/reverse-engineering" style={{ textDecoration: "none" }}>
+              <P>Reverse Engineering</P>
+            </Link>
+            <Link to="/cloud-computing" style={{ textDecoration: "none" }}>
+              <P pad="5px 0">Cloud Computing</P>
+            </Link>
             <P>AI & ML</P>
             <P pad="5px 0">Embedded Software</P>
             <P>Mobile Solutions</P>
@@ -57,7 +63,9 @@ const Footer = () => {
               <b>Company</b>
             </P>
             <P pad="5px 0">About Us</P>
-            <Link to="/contact" style={{textDecoration:"none"}}><P>Contact Us</P></Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <P>Contact Us</P>
+            </Link>
             <P pad="5px 0">Awards and Recognition</P>
           </div>
 
@@ -66,7 +74,16 @@ const Footer = () => {
               <b>Address</b>
             </P>
             <P pad="5px 0">502W 7th ST STE 100 Erie, PA 16502 USA</P>
-            <P>Follow Us</P>
+            <P pad="5px 0">127 Old Gloucester Street, London, England</P>
+            <P pad="5px 0">Follow Us</P>
+
+            <div>
+              <img src="./Images/instagram.svg" alt="instagram" width="20" />
+              <img src="./Images/facebook.svg" alt="facebook" width="20" style={{margin:"0 10px"}}/>
+              <img src="./Images/twitter.svg" alt="twitter" width="20" />
+              <img src="./Images/linkedin.svg" alt="linkedin" width="20" style={{margin:"0 10px"}}/>
+              <img src="./Images/youtube.svg" alt="youtube" width="20" />
+            </div>
           </div>
         </FooterGrid>
 

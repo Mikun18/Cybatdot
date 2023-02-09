@@ -7,7 +7,7 @@ import { Flex } from "../../Base/flex";
 const Collaborate = () => {
   return (
     <section style={{position:"relative"}}>
-      <Box>
+      <Box primary>
         <Flex>
           <div>
             <H1 width="423px" fs="48px">

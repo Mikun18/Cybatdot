@@ -8,7 +8,7 @@ import { Design } from "../../Base/design";
 const Hero = () => {
   return (
     <section>
-      <Box>
+      <Box primary>
         <Flex>
           <div>
             <H1 width="568px" fs="68px" hero>
@@ -49,7 +49,7 @@ const Hero = () => {
         </Flex>
       </Box>
 
-      <Box>
+      <Box primary>
         <Flex second>
           <div>
             <Rect

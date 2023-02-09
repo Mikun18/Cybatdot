@@ -20,6 +20,13 @@ export const Input = styled.input`
     border: 1px #0A0A0A solid;
     font-size: 18px;
 
+    ${props => props.search && css`
+        border: none;
+        background-color: #D9D9D9;
+        padding: 5px;
+        color: rgba(0, 0, 0, 0.5);;
+    `}
+
     &:focus{
         outline: none;
     }

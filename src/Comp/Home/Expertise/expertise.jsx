@@ -170,9 +170,9 @@ const Expertise = () => {
               potential to produce effective and secure products.
             </P>
 
-            <button style={{ margin: "15% 15px", cursor: "pointer" }}>
+            <Link to="/blockchain"><button style={{ margin: "15% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -185,9 +185,9 @@ const Expertise = () => {
               AI technologies to increase the intelligence of your company.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/ai&ml"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -200,9 +200,9 @@ const Expertise = () => {
               energy efficiency, small size, and real-time response.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/embedded-software"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -216,9 +216,9 @@ const Expertise = () => {
               devices.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+           <Link to="/mobile-solution"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -232,9 +232,9 @@ const Expertise = () => {
               information.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/security-testing"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -247,9 +247,9 @@ const Expertise = () => {
               assurance and software testing services offered by Cybadot.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/quality-assurance"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
         <Card>
@@ -263,9 +263,9 @@ const Expertise = () => {
               Cybadot.
             </P>
 
-            <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/web-solution"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
               Learn More
-            </button>
+            </button></Link>
           </div>
         </Card>
       </Slider>

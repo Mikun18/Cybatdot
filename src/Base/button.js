@@ -27,6 +27,11 @@ export const Button = styled.button`
         color: #0A0A0A;
     `}
 
+    ${props => props.blogNav && css`
+        color: black;
+        background-color: transparent;
+    `}
+
     @media(max-width: ${({theme}) => theme.screen.md}){
         ${props => props.nav && css`
             display: none;

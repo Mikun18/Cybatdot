@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentCon } from "../../Base/box";
+import { ContentCon } from "../../Base/box"; 
 import { H1, P } from "../../Base/text";
 
 const Content = () => {

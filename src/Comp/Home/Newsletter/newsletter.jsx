@@ -107,8 +107,7 @@ const Newsletter = () => {
               <img src="./Images/award.png" alt="Award" />
 
               <P fs="24px" width="327px" pad="25px 0px" slide>
-                Cybadot Technologies Secures $50M Send Funding to Further
-                Cybalife
+                Cybadot Technologies Is Seeking funds for Cybalife
               </P>
               <P fs="18px" width="305px" slide>
                 Cybalife tackles severe problems and provides a complete
