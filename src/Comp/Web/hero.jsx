@@ -7,7 +7,7 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybalife.png" alt="blockchain" security />
+      <Image src="./Images/web-hero.AVIF" alt="web solutions" security />
       <Box cyba>
         <Flex>
           <div>
@@ -18,10 +18,11 @@ const Hero = () => {
             <P width="443px" fs="20px" pad="28px 0" cyba>
               We have a long history of offering bespoke web application
               development services utilizing the ASP.NET MVC framework at
-              Cybadot.
+              Cybadot. Our developers use this framework to create business- and
+              consumer-oriented web solutions.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

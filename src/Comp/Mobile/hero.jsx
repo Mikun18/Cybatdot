@@ -7,7 +7,7 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybalife.png" alt="blockchain" security />
+      <Image src="./Images/mobile-hero.AVIF" alt="mobile solutions" security />
       <Box cyba>
         <Flex>
           <div>
@@ -16,12 +16,13 @@ const Hero = () => {
             </H1>
 
             <P width="443px" fs="20px" pad="28px 0" cyba>
-              Mobile apps make daily routines easier and more enjoyable, and
-              they have become an essential part of our lives due to mobile
-              devices.
+              At Cybadot, our passion for cybersecurity is unmatched. Our iOS
+              and Android specialists create MAM/MDM platforms that are
+              enterprise-level and provide mobile security, data protection,
+              mobile synchronization, and other solutions.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

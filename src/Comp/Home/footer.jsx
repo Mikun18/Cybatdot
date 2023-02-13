@@ -40,19 +40,19 @@ const Footer = () => {
             <Link to="/cloud-computing" style={{ textDecoration: "none" }}>
               <P pad="5px 0">Cloud Computing</P>
             </Link>
-            <P>AI & ML</P>
-            <P pad="5px 0">Embedded Software</P>
-            <P>Mobile Solutions</P>
-            <P pad="5px 0">Security Testing</P>
-            <P>Quality Assurance</P>
-            <P pad="5px 0">Web Solutions</P>
+            <Link to="/ai&ml" style={{ textDecoration: "none" }}><P>AI & ML</P></Link>
+            <Link to="/embedded-software" style={{ textDecoration: "none" }}><P pad="5px 0">Embedded Software</P></Link>
+            <Link to="/mobile-solution" style={{ textDecoration: "none" }}><P>Mobile Solutions</P></Link>
+            <Link to="/security-testing" style={{ textDecoration: "none" }}><P pad="5px 0">Security Testing</P></Link>
+            <Link to="/quality-assurance" style={{ textDecoration: "none" }}><P>Quality Assurance</P></Link>
+            <Link to="/web-solution" style={{ textDecoration: "none" }}><P pad="5px 0">Web Solutions</P></Link>
           </div>
 
           <div>
             <P pad="15px 0">
               <b>Resources</b>
             </P>
-            <P pad="5px 0">Blog</P>
+           <Link to="/blog" style={{ textDecoration: "none" }}><P pad="5px 0">Blog</P></Link>
             <P>White Papers</P>
             <P pad="5px 0">E-books</P>
             <P>Webiners</P>
@@ -62,7 +62,7 @@ const Footer = () => {
             <P pad="15px 0">
               <b>Company</b>
             </P>
-            <P pad="5px 0">About Us</P>
+            <Link to="/about" style={{ textDecoration: "none" }}><P pad="5px 0">About Us</P></Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <P>Contact Us</P>
             </Link>
@@ -78,11 +78,11 @@ const Footer = () => {
             <P pad="5px 0">Follow Us</P>
 
             <div>
-              <img src="./Images/instagram.svg" alt="instagram" width="20" />
-              <img src="./Images/facebook.svg" alt="facebook" width="20" style={{margin:"0 10px"}}/>
-              <img src="./Images/twitter.svg" alt="twitter" width="20" />
-              <img src="./Images/linkedin.svg" alt="linkedin" width="20" style={{margin:"0 10px"}}/>
-              <img src="./Images/youtube.svg" alt="youtube" width="20" />
+            <a href="https://www.instagram.com/cybadot/" target="_blank" rel='noreferrer'><img src="./Images/instagram.svg" alt="instagram" width="20" /></a>
+              <a href="https://www.facebook.com/cybadot?mibextid=ZbWKwL" target="_blank" rel='noreferrer'><img src="./Images/facebook.svg" alt="facebook" width="20" style={{margin:"0 20px"}}/></a>
+              <a href="https://twitter.com/Cybadotofficial" target="_blank" rel='noreferrer'><img src="./Images/twitter.svg" alt="twitter" width="20" /></a>
+              <a href="https://www.linkedin.com/company/cybadot/" target="_blank" rel='noreferrer'><img src="./Images/linkedin.svg" alt="linkedin" width="20" style={{margin:"0 20px"}}/></a>
+              <a href="https://www.facebook.com/cybadot?mibextid=ZbWKwL" target="_blank" rel='noreferrer'><img src="./Images/youtube.svg" alt="youtube" width="20" /></a>
             </div>
           </div>
         </FooterGrid>

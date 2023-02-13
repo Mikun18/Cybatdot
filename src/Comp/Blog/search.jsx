@@ -9,7 +9,7 @@ const SearchNav = () => {
   return (
     <div>
         <Box>
-            <Flex sidebar>
+            <Flex search>
                 <Con>
                     <Con>
                         <Button>Blog</Button>
@@ -18,7 +18,7 @@ const SearchNav = () => {
                     </Con>
                 </Con>
 
-                <Con bg="#D9D9D9" pad="0px 10px" br="10px">
+                <Con bg="#D9D9D9" pad="0px 10px" br="10px" margin="20px 0" search>
                     <Flex sidebar>
                         <img src="./Images/search.svg" alt="search" width="20" />
                         <Input search placeholder='Search Blog'/>

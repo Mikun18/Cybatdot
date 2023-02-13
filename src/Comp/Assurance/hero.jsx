@@ -7,7 +7,11 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybasecurity.png" alt="cyba security" security />
+      <Image
+        src="./Images/quality-hero.AVIF"
+        alt="quality assurance"
+        security
+      />
       <Box cyba>
         <Flex>
           <div>
@@ -16,11 +20,12 @@ const Hero = () => {
             </H1>
 
             <P width="443px" fs="18px" pad="28px 0" cyba>
-              Security and penetration testing are among the full-stack quality
-              assurance and software testing services offered by Cybadot.
+              Cybadot offers penetration testing and vulnerability assessment on
+              mobile platforms (iOS, Android), client-server systems, SaaS
+              platforms, and blockchain smart contracts.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

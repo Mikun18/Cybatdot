@@ -7,7 +7,7 @@ import { Flex } from "../../Base/flex";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/Header.AVIF" alt="blog" blog/>
+      <Image src="./Images/Header.AVIF" alt="blog" blog height="400px"/>
 
       <Box heroblog>
         <H1 width="493px" fs="32px" cyba>Cybadot Blog</H1>

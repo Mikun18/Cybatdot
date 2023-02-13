@@ -34,4 +34,10 @@ export const Input = styled.input`
     ${props => props.flex && css`
         margin-left: 20px;
     `}
+
+    @media(max-width: ${({theme}) => theme.screen.xsm}){
+        ${props => props.search && css`
+            width: 100%;
+        `}
+    }
 `

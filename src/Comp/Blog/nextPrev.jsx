@@ -7,16 +7,16 @@ import { Button } from "../../Base/button";
 const NextPrev = () => {
   return (
     <div>
-      <Con margin="50px 140px" bt="1px solid rgba(0, 0, 0, 0.5)" pad="15px">
-        <Flex>
-            <Flex>
+      <Con margin="50px 140px" bt="1px solid rgba(0, 0, 0, 0.5)" pad="15px" nextPrev>
+        <Flex sidebar>
+            <Flex sidebar>
                 <Con  bg="#0A2493" br="50%" pad="8px 15px"><P cyba>1</P></Con>
                 <P pad="8px 20px">2</P>
                 <P>3</P>
             </Flex>
 
             <Con>   
-                <Button sec>Next Page</Button>
+                <Button nextPrev>Next Page</Button>
             </Con>
         </Flex>
       </Con>

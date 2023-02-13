@@ -7,7 +7,11 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybalife.png" alt="blockchain" security />
+      <Image
+        src="./Images/security-hero.AVIF"
+        alt="security testing"
+        security
+      />
       <Box cyba>
         <Flex>
           <div>
@@ -16,12 +20,12 @@ const Hero = () => {
             </H1>
 
             <P width="443px" fs="20px" pad="28px 0" cyba>
-              Security testing conducted before deployment can identify software
-              flaws. It is crucial for software that manages or stores private
-              information.
+              Cybadot offers penetration testing and vulnerability assessment on
+              mobile platforms (iOS, Android), client-server systems, SaaS
+              platforms, and blockchain smart contracts.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

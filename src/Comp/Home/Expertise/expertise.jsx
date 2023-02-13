@@ -269,12 +269,6 @@ const Expertise = () => {
           </div>
         </Card>
       </Slider>
-
-      <div style={{ textAlign: "center", padding: "40px 0" }}>
-        <Button style={{ backgroundColor: "#EDF0FF", color: "#141414" }}>
-          See all Solutions
-        </Button>
-      </div>
     </Slide>
   );
 };

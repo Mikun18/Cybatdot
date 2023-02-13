@@ -18,14 +18,14 @@ const Navbar = () => {
         </div>
 
         <Flex>
-          <p>Home</p>
-          <p>Our Innovation</p>
-          <p>Company</p>
-          <p>Blog</p>
-          <Link to="/contact">
-          <Button nav>Book a demo</Button>
-          </Link>
+          <Link to="/"><Button blogNav>Home</Button></Link>
+          <Button blogNav>Our Innovation</Button>
+          <Button blogNav>Company</Button>
+          <Link to="/blog"><Button blogNav>Blog</Button></Link>
         </Flex>
+          <Link to="/contact">
+          <Button nav>Contact Us</Button>
+          </Link>
       </Nav>
 
       <SmallerNav />

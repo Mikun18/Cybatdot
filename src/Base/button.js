@@ -17,6 +17,12 @@ export const Button = styled.button`
         background-color: white;
     `}
 
+    ${props => props.nextPrev && css`
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+    `}
+
     ${(props) => props.sidebar && css`
         width: 100%;
         padding: 18px 0;

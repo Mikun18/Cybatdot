@@ -7,20 +7,25 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybalife.png" alt="blockchain" security />
+      <Image
+        src="./Images/embedded-hero.AVIF"
+        alt="embedded software"
+        security
+      />
       <Box cyba>
         <Flex>
           <div>
             <H1 width="708px" fs="68px" mt="80px" cyba>
-              Embedded Software Solutions
+              Embedded System
             </H1>
 
             <P width="443px" fs="20px" pad="28px 0" cyba>
-              The advantages of the embedded system include their portability,
-              energy efficiency, small size, and real-time response.
+              We provide the following embedded and IoT solutions: Embedded
+              software and integrations; cross-platform software for embedded
+              devices; device drivers and board support packages and much more.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

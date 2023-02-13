@@ -48,4 +48,10 @@ export const Flex = styled.div`
         flex-direction: column-reverse;
       `}
     }
+
+    @media(max-width: ${({theme}) => theme.screen.xsm}){
+      ${props => props.search && css`
+        flex-direction: column;
+      `}
+    }
 `

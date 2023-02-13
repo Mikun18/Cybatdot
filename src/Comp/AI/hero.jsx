@@ -7,20 +7,22 @@ import { Button } from "../../Base/button";
 const Hero = () => {
   return (
     <div>
-      <Image src="./Images/cybalife.png" alt="blockchain" security />
+      <Image src="./Images/ai-hero.AVIF" alt="ai&ml" security />
       <Box cyba>
         <Flex>
           <div>
             <H1 width="708px" fs="68px" mt="80px" cyba>
-            AI & ML Solutions
+              Artificial Intelligence & Machine Learning
             </H1>
 
             <P width="443px" fs="20px" pad="28px 0" cyba>
-              Experts from Cybadot can assist you in implementing cutting-edge
-              AI technologies to increase the intelligence of your company.
+              We offer AI development services to businesses in various sectors,
+              including remote sensing, healthcare, and education. Machine
+              learning and deep learning solutions can analyze and process large
+              amounts of data quickly and continuously.
             </P>
 
-            <Button cyba>Book a demo</Button>
+            <Button cyba>Contact Us</Button>
           </div>
         </Flex>
       </Box>

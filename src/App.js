@@ -18,6 +18,7 @@ const SecurityTest = lazy(() => import("./Pages/securityTest.js"));
 const Assurance = lazy(() => import("./Pages/assurance.js"));
 const Web = lazy(() => import("./Pages/web.js"));
 const Blog = lazy(() => import("./Pages/blog.js"));
+const About = lazy(() => import("./Pages/about.js"));
 
 const theme = {
   screen: {
@@ -61,6 +62,7 @@ function App() {
               <Route path="/quality-assurance" element={<Assurance />} />
               <Route path="/web-solution" element={<Web />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </BrowserRouter>
         </div>

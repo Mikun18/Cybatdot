@@ -13,6 +13,11 @@ export const P = styled.p`
     color: white;
   `}
 
+  ${props => props.about && css`
+    line-height: 150%;
+    color: ${props => props.color};
+  `}
+
   @media(max-width: ${({theme}) => theme.screen.lg}){
     ${(props) => props.slide && css`
       width: 95%;
@@ -34,6 +39,14 @@ export const P = styled.p`
     ${props => props.cybalife && css`
       width: 90%;
       padding: 15px;
+    `}
+
+    ${props => props.blog && css`
+      font-size: 16px;
+    `}
+
+    ${props => props.about && css`
+      width: 100%;
     `}
   }
 
@@ -128,6 +141,10 @@ export const H1 = styled.h1`
       font-size: 18px;
       width: 80%;
       font-weight: 700;
+    `}
+
+    ${props => props.blog && css`
+      font-size: 24px;
     `}
   }
 `;
