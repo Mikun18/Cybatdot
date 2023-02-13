@@ -120,7 +120,7 @@ const SideBar = ({ setShowModal }) => {
               style={{ padding: "20px 0", fontSize: "24px", display: "block" }}
               onClick={() => setShowModal(false)}
             >
-              Company
+              About Us
             </Button>
           </Link>
 

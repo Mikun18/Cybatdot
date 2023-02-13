@@ -17,7 +17,7 @@ const Form = () => {
     refer: "",
   });
 
-  const data = { ...bio };
+  // const data = { ...bio };
 
   const handleSubmit = (e) => {
     e.preventDefault();

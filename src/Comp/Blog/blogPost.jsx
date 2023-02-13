@@ -2,8 +2,6 @@ import React from "react";
 import { Box, Con } from "../../Base/box";
 import { Grid } from "../../Base/grid";
 import { P } from "../../Base/text";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const BlogPost = () => {
   return (
