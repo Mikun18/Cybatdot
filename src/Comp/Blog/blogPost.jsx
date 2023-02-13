@@ -23,7 +23,7 @@ const BlogPost = () => {
               </P>
 
               <P>
-                Read More <FontAwesomeIcon icon={faArrowRight} />
+                Read More
               </P>
             </Con>
 

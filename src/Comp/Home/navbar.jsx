@@ -18,14 +18,18 @@ const Navbar = () => {
         </div>
 
         <Flex>
-          <Link to="/"><Button blogNav>Home</Button></Link>
-          <Button blogNav>Our Innovation</Button>
-          <Button blogNav>Company</Button>
-          <Link to="/blog"><Button blogNav>Blog</Button></Link>
-        </Flex>
-          <Link to="/contact">
-          <Button nav>Contact Us</Button>
+          <Link to="/">
+            <Button blogNav>Home</Button>
           </Link>
+          <Link to="/about"><Button blogNav>About Us</Button></Link>
+          <Button blogNav>Our Innovation</Button>
+          <Link to="/blog">
+            <Button blogNav>Blog</Button>
+          </Link>
+        </Flex>
+        <Link to="/contact">
+          <Button nav>Contact Us</Button>
+        </Link>
       </Nav>
 
       <SmallerNav />
@@ -41,7 +45,7 @@ const SmallerNav = () => {
       <SmallerNavbar>
         <div>
           <Link to="/">
-          `<img src="./Images/logo.svg" alt="logo" />
+            `<img src="./Images/logo.svg" alt="logo" />
           </Link>
         </div>
 
@@ -105,11 +109,44 @@ const SideBar = ({ setShowModal }) => {
         </Flex>
 
         <div style={{ padding: "30px 0" }}>
-          <p style={{ padding: "20px 0", fontSize: "24px" }}>Home</p>
-          <p style={{ padding: "20px 0", fontSize: "24px" }}>Our Innovation</p>
-          <p style={{ padding: "20px 0", fontSize: "24px" }}>Company</p>
-          <p style={{ padding: "20px 0", fontSize: "24px" }}>Blog</p>
-         <Link to="/contact"><Button sidebar onClick={() => setShowModal(false)}>Book a demo</Button></Link>
+          <Link to="/">
+            <Button blogNav style={{ padding: "20px 0", fontSize: "24px" }}>
+              Home
+            </Button>
+          </Link>
+          <Link to="/about" style={{textDecoration:"none"}}>
+            <Button
+              blogNav
+              style={{ padding: "20px 0", fontSize: "24px", display: "block" }}
+              onClick={() => setShowModal(false)}
+            >
+              Company
+            </Button>
+          </Link>
+
+          <Button
+            blogNav
+            style={{ padding: "20px 0", fontSize: "24px", display: "block" }}
+            onClick={() => setShowModal(false)}
+          >
+            Our Innovation
+          </Button>
+
+          <Link to="/blog" style={{textDecoration:"none"}}>
+            <Button
+              blogNav
+              style={{ padding: "20px 0", fontSize: "24px", display: "block" }}
+              onClick={() => setShowModal(false)}
+            >
+              Blog
+            </Button>
+          </Link>
+
+          <Link to="/contact">
+            <Button sidebar onClick={() => setShowModal(false)}>
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </SideModal>
     </motion.div>

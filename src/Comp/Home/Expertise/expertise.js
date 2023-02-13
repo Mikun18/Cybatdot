@@ -6,13 +6,14 @@ export const Card = styled.section`
   /* padding: 0 20px; */
   /* box-shadow: 0px 30px 6px 0px rgba(0, 0, 0, 0.25); */
   /* box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25); */
-
+  
   div {
     background-color: ${(props) => props.theme.color.bgColor};
     padding: 15px 0;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 200px;
+    position: relative;
     /* width: 100%; */
   }
 
@@ -27,8 +28,11 @@ export const Card = styled.section`
     border: none;
     background-color: transparent;
     border-bottom: 2px solid #0a2493;
-    padding-top: 42px;
     font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    cursor: pointer;
   }
 `;
 

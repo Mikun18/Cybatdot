@@ -4,7 +4,6 @@ import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
 import Slider from "react-slick";
 import { Card, ImageText } from "./expertise";
-import { Button } from "../../../Base/button";
 import { SliderButton, SliderDot} from "./expertise";
 // import "slick-carousel/slick/slick.css"; 
 // import "slick-carousel/slick/slick-theme.css";
@@ -112,7 +111,7 @@ const Expertise = () => {
             </P>
 
             <Link to="/cyba-security">
-              <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+              <button>
                 Learn More
               </button>
             </Link>
@@ -131,7 +130,7 @@ const Expertise = () => {
             </P>
 
             <Link to="/reverse-engineering">
-              <button style={{ margin: "10% 15px", cursor: "pointer" }}>
+              <button>
                 Learn More
               </button>
             </Link>
@@ -150,7 +149,7 @@ const Expertise = () => {
             </P>
 
             <Link to="/cloud-computing">
-              <button style={{ margin: "6% 15px", cursor: "pointer" }}>
+              <button>
                 Learn More
               </button>
             </Link>
@@ -170,7 +169,7 @@ const Expertise = () => {
               potential to produce effective and secure products.
             </P>
 
-            <Link to="/blockchain"><button style={{ margin: "15% 15px", cursor: "pointer" }}>
+            <Link to="/blockchain"><button>
               Learn More
             </button></Link>
           </div>
@@ -185,7 +184,7 @@ const Expertise = () => {
               AI technologies to increase the intelligence of your company.
             </P>
 
-            <Link to="/ai&ml"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/ai&ml"><button>
               Learn More
             </button></Link>
           </div>
@@ -200,7 +199,7 @@ const Expertise = () => {
               energy efficiency, small size, and real-time response.
             </P>
 
-            <Link to="/embedded-software"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/embedded-software"><button>
               Learn More
             </button></Link>
           </div>
@@ -216,7 +215,7 @@ const Expertise = () => {
               devices.
             </P>
 
-           <Link to="/mobile-solution"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+           <Link to="/mobile-solution"><button>
               Learn More
             </button></Link>
           </div>
@@ -232,7 +231,7 @@ const Expertise = () => {
               information.
             </P>
 
-            <Link to="/security-testing"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/security-testing"><button>
               Learn More
             </button></Link>
           </div>
@@ -247,7 +246,7 @@ const Expertise = () => {
               assurance and software testing services offered by Cybadot.
             </P>
 
-            <Link to="/quality-assurance"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/quality-assurance"><button>
               Learn More
             </button></Link>
           </div>
@@ -263,7 +262,7 @@ const Expertise = () => {
               Cybadot.
             </P>
 
-            <Link to="/web-solution"><button style={{ margin: "10% 15px", cursor: "pointer" }}>
+            <Link to="/web-solution"><button>
               Learn More
             </button></Link>
           </div>

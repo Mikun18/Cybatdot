@@ -21,10 +21,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(data);
   };
-
-  const handleClick = () => {};
 
   const handleChange = (e) => {
     const name = e.target.name;

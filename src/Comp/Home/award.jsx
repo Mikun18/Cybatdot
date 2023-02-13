@@ -7,7 +7,7 @@ const Award = () => {
     <div>
       <Box align="center">
         <H1 pad="20px 0" fs="48px">Awards & Recognition</H1>
-        <img src="./Images/Awards.AVIF" alt="award" />
+        <a href="https://www.cioreview.com/cybadot" target="_blank" rel='noreferrer'><img src="./Images/Awards.AVIF" alt="award" /></a>
       </Box>
     </div>
   )

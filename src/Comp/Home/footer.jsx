@@ -79,9 +79,9 @@ const Footer = () => {
 
             <div>
             <a href="https://www.instagram.com/cybadot/" target="_blank" rel='noreferrer'><img src="./Images/instagram.svg" alt="instagram" width="20" /></a>
-              <a href="https://www.facebook.com/cybadot?mibextid=ZbWKwL" target="_blank" rel='noreferrer'><img src="./Images/facebook.svg" alt="facebook" width="20" style={{margin:"0 20px"}}/></a>
+              <a href="https://www.facebook.com/cybadot?mibextid=ZbWKwL" target="_blank" rel='noreferrer'><img src="./Images/facebook.svg" alt="facebook" width="20" style={{margin:"0 10px"}}/></a>
               <a href="https://twitter.com/Cybadotofficial" target="_blank" rel='noreferrer'><img src="./Images/twitter.svg" alt="twitter" width="20" /></a>
-              <a href="https://www.linkedin.com/company/cybadot/" target="_blank" rel='noreferrer'><img src="./Images/linkedin.svg" alt="linkedin" width="20" style={{margin:"0 20px"}}/></a>
+              <a href="https://www.linkedin.com/company/cybadot/" target="_blank" rel='noreferrer'><img src="./Images/linkedin.svg" alt="linkedin" width="20" style={{margin:"0 10px"}}/></a>
               <a href="https://www.facebook.com/cybadot?mibextid=ZbWKwL" target="_blank" rel='noreferrer'><img src="./Images/youtube.svg" alt="youtube" width="20" /></a>
             </div>
           </div>
