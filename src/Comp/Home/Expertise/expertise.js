@@ -74,7 +74,6 @@ export const SliderButton= styled.button`
 `
 
 export const SliderDot = styled.div`
-  /* background-color: white; */
   display: flex;
   justify-content: center;
   width: 100%;

@@ -21,7 +21,7 @@ const Footer = () => {
                 Healthcare
               </P>
             </Link>
-            <P>Agriculture</P>
+            <P >Agriculture</P>
             <P pad="5px 0">Energy Productions</P>
             <P>E-commerce</P>
             <P pad="5px 0">Robotics</P>
@@ -34,31 +34,31 @@ const Footer = () => {
               <b>Expertise</b>
             </P>
             <Link to="/cyba-security" style={{ textDecoration: "none" }}>
-              <P pad="5px 0">Cyber Security</P>
+              <P pad="5px 0" fs="16px">Cyber Security</P>
             </Link>
             <Link to="/reverse-engineering" style={{ textDecoration: "none" }}>
-              <P>Reverse Engineering</P>
+              <P fs="16px">Reverse Engineering</P>
             </Link>
             <Link to="/cloud-computing" style={{ textDecoration: "none" }}>
-              <P pad="5px 0">Cloud Computing</P>
+              <P pad="5px 0" fs="16px">Cloud Computing</P>
             </Link>
             <Link to="/ai&ml" style={{ textDecoration: "none" }}>
-              <P>AI & ML</P>
+              <P fs="16px">AI & ML</P>
             </Link>
             <Link to="/embedded-software" style={{ textDecoration: "none" }}>
-              <P pad="5px 0">Embedded Software</P>
+              <P pad="5px 0" fs="16px">Embedded Software</P>
             </Link>
             <Link to="/mobile-solution" style={{ textDecoration: "none" }}>
-              <P>Mobile Solutions</P>
+              <P fs="16px">Mobile Solutions</P>
             </Link>
             <Link to="/security-testing" style={{ textDecoration: "none" }}>
-              <P pad="5px 0">Security Testing</P>
+              <P pad="5px 0" fs="16px">Security Testing</P>
             </Link>
             <Link to="/quality-assurance" style={{ textDecoration: "none" }}>
-              <P>Quality Assurance</P>
+              <P fs="16px">Quality Assurance</P>
             </Link>
             <Link to="/web-solution" style={{ textDecoration: "none" }}>
-              <P pad="5px 0">Web Solutions</P>
+              <P pad="5px 0" fs="16px">Web Solutions</P>
             </Link>
           </div>
 
