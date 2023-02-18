@@ -14,7 +14,7 @@ const Footer = () => {
 
         <FooterGrid>
           <div>
-            <P pad="15px 0">
+            <P pad="15px 0" footerText>
               <b>Industries</b>
             </P>
             <Link to="/cybalife">
@@ -22,79 +22,129 @@ const Footer = () => {
                 Healthcare
               </Button>
             </Link>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Agriculture</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Energy Productions</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">E-commerce</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Robotics</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Education</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Waste Management</Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Agriculture
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Energy Productions
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              E-commerce
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Robotics
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Education
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Waste Management
+            </Button>
           </div>
 
           <div>
-            <P pad="15px 0">
+            <P pad="15px 0" footerText>
               <b>Expertise</b>
             </P>
             <Link to="/cyba-security" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Cyber Security</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Cyber Security
+              </Button>
             </Link>
             <Link to="/reverse-engineering" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Reverse Engineering</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Reverse Engineering
+              </Button>
             </Link>
             <Link to="/cloud-computing" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Cloud Computing</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Cloud Computing
+              </Button>
             </Link>
             <Link to="/ai&ml" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">AI & ML</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                AI & ML
+              </Button>
             </Link>
             <Link to="/embedded-software" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Embedded Software</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Embedded Software
+              </Button>
             </Link>
             <Link to="/mobile-solution" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Mobile Solutions</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Mobile Solutions
+              </Button>
             </Link>
             <Link to="/security-testing" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Security Testing</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Security Testing
+              </Button>
             </Link>
             <Link to="/quality-assurance" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Quality Assurance</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Quality Assurance
+              </Button>
             </Link>
             <Link to="/web-solution" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Web Solutions</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Web Solutions
+              </Button>
             </Link>
           </div>
 
           <div>
-            <P pad="15px 0">
+            <P pad="15px 0" footerText>
               <b>Resources</b>
             </P>
             <Link to="/blog" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Blog</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Blog
+              </Button>
             </Link>
-            <Button blogNav fs="16px" display="block" pad="5px 0">White Papers</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">E-books</Button>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Webiners</Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              White Papers
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              E-books
+            </Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Webiners
+            </Button>
           </div>
 
           <div>
-            <P pad="15px 0">
+            <P pad="15px 0" footerText>
               <b>Company</b>
             </P>
             <Link to="/about" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">About Us</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                About Us
+              </Button>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
-              <Button blogNav fs="16px" display="block" pad="5px 0">Contact Us</Button>
+              <Button blogNav fs="16px" display="block" pad="5px 0">
+                Contact Us
+              </Button>
             </Link>
-            <Button blogNav fs="16px" display="block" pad="5px 0">Awards and Recognition</Button>
+            <Button blogNav fs="16px" display="block" pad="5px 0">
+              Awards and Recognition
+            </Button>
           </div>
 
           <div>
-            <P pad="15px 0">
+            <P pad="15px 0" footerText>
               <b>Address</b>
             </P>
-            <P pad="5px 0" footer>502W 7th ST STE 100 Erie, PA 16502 USA</P>
-            <P pad="5px 0" footer>127 Old Gloucester Street, London, England</P>
-            <P pad="5px 0" footer>Follow Us</P>
+            <P pad="5px 0" footer>
+              502W 7th ST STE 100 Erie, PA 16502 USA
+            </P>
+            <P pad="5px 0" footer>
+              127 Old Gloucester Street, London, England
+            </P>
+            <P pad="5px 0" footer>
+              Follow Us
+            </P>
 
             <div>
               <a

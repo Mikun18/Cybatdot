@@ -54,6 +54,10 @@ export const P = styled.p`
     ${props => props.footer && css`
       font-size: 10px;
     `}
+
+    ${props => props.footerText && css`
+      font-size: 12px;
+    `}
   }
 
   @media (max-width: ${({ theme }) => theme.screen.mobile}){
