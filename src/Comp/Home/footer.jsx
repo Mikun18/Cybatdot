@@ -14,11 +14,11 @@ const Footer = () => {
 
         <FooterGrid>
           <div>
-            <P pad="15px 0" footerText>
+            <Button pad="15px 0" blogNav>
               <b>Industries</b>
-            </P>
-            <Link to="/cybalife">
-              <Button blogNav fs="16px" pad="5px 0">
+            </Button>
+            <Link to="/cybalife" style={{ textDecoration: "none" }}>
+              <Button blogNav fs="16px" pad="5px 0" display="block">
                 Healthcare
               </Button>
             </Link>
@@ -43,9 +43,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <P pad="15px 0" footerText>
+            <Button pad="15px 0" blogNav>
               <b>Expertise</b>
-            </P>
+            </Button>
             <Link to="/cyba-security" style={{ textDecoration: "none" }}>
               <Button blogNav fs="16px" display="block" pad="5px 0">
                 Cyber Security
@@ -94,9 +94,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <P pad="15px 0" footerText>
+            <Button pad="15px 0" blogNav>
               <b>Resources</b>
-            </P>
+            </Button>
             <Link to="/blog" style={{ textDecoration: "none" }}>
               <Button blogNav fs="16px" display="block" pad="5px 0">
                 Blog
@@ -114,9 +114,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <P pad="15px 0" footerText>
+            <Button pad="15px 0" blogNav>
               <b>Company</b>
-            </P>
+            </Button>
             <Link to="/about" style={{ textDecoration: "none" }}>
               <Button blogNav fs="16px" display="block" pad="5px 0">
                 About Us
@@ -133,9 +133,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <P pad="15px 0" footerText>
+            <Button pad="15px 0" blogNav>
               <b>Address</b>
-            </P>
+            </Button>
             <P pad="5px 0" footer>
               502W 7th ST STE 100 Erie, PA 16502 USA
             </P>
