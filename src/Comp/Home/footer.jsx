@@ -133,16 +133,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <Button pad="15px 0" blogNav>
+            <P pad="15px 0" blogNav>
               <b>Address</b>
-            </Button>
-            <P pad="5px 0" footer fs="16px">
+            </P>
+            <P pad="5px 0" fs="16px" footer display="block">
               502W 7th ST STE 100 Erie, PA 16502 USA
             </P>
-            <P pad="5px 0" footer fs="16px">
+            <P pad="5px 0"  fs="16px" footer display="block">
               127 Old Gloucester Street, London, England
             </P>
-            <P pad="5px 0" footer>
+            <P pad="5px 0" fs="16px" footer display="block">
               Follow Us
             </P>
 

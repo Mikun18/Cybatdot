@@ -29,7 +29,7 @@ export const FooterGrid = styled.div`
 
     }
 
-    @media(max-width: ${({theme}) => theme.screen.mobile}){
+    @media(max-width: ${({theme}) => theme.screen.sm}){
       grid-template-columns: repeat(2, 1fr);
     }
 `

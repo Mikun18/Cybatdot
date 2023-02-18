@@ -58,6 +58,7 @@ export const Button = styled.button`
 
         ${props => props.blogNav && css`
             font-size: 12px;
+            
         `}
     }
 `
