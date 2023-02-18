@@ -57,7 +57,7 @@ export const Button = styled.button`
         `}
 
         ${props => props.blogNav && css`
-            font-size: 10px;
+            font-size: 12px;
         `}
     }
 `

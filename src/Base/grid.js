@@ -13,4 +13,8 @@ export const Grid = styled.div`
         grid-template-columns: repeat(1, 1fr);
     }
 
+    @media(max-width: ${({theme}) => theme.screen.mobile}){
+        
+    }
+
 `

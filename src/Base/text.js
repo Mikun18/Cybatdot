@@ -52,7 +52,7 @@ export const P = styled.p`
 
   @media(max-width: ${({theme}) => theme.screen.xsm}){
     ${props => props.footer && css`
-      font-size: 10px;
+      font-size: 12px;
     `}
 
     ${props => props.footerText && css`

@@ -26,5 +26,10 @@ export const FooterGrid = styled.div`
 
     @media(max-width: ${({theme}) => theme.screen.md}) {
       grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    @media(max-width: ${({theme}) => theme.screen.mobile}){
+      grid-template-columns: repeat(2, 1fr);
     }
 `

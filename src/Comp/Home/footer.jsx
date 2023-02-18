@@ -136,10 +136,10 @@ const Footer = () => {
             <Button pad="15px 0" blogNav>
               <b>Address</b>
             </Button>
-            <P pad="5px 0" footer>
+            <P pad="5px 0" footer fs="16px">
               502W 7th ST STE 100 Erie, PA 16502 USA
             </P>
-            <P pad="5px 0" footer>
+            <P pad="5px 0" footer fs="16px">
               127 Old Gloucester Street, London, England
             </P>
             <P pad="5px 0" footer>
