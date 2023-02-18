@@ -19,6 +19,7 @@ const Assurance = lazy(() => import("./Pages/assurance.js"));
 const Web = lazy(() => import("./Pages/web.js"));
 const Blog = lazy(() => import("./Pages/blog.js"));
 const About = lazy(() => import("./Pages/about.js"));
+const Expertise = lazy(() => import("./Pages/expertise.js"));
 
 const theme = {
   screen: {
@@ -63,6 +64,7 @@ function App() {
               <Route path="/web-solution" element={<Web />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/about" element={<About />} />
+              <Route path="/expertise" element={<Expertise />} />
             </Routes>
           </BrowserRouter>
         </div>

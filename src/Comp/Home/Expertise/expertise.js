@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled,{css} from "styled-components";
 
 export const Card = styled.section`
   /* width: 100%; */
@@ -6,16 +6,19 @@ export const Card = styled.section`
   /* padding: 0 20px; */
   /* box-shadow: 0px 30px 6px 0px rgba(0, 0, 0, 0.25); */
   /* box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25); */
+
+  ${props => props.primary && css`
+    div {
+      background-color: ${(props) => props.theme.color.bgColor};
+      padding: 15px 0;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      height: 200px;
+      position: relative;
+      /* width: 100%; */
+    }
+  `}
   
-  div {
-    background-color: ${(props) => props.theme.color.bgColor};
-    padding: 15px 0;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 200px;
-    position: relative;
-    /* width: 100%; */
-  }
 
   img {
     width: 100%;
@@ -38,7 +41,7 @@ export const Card = styled.section`
 
 export const ImageText = styled.p`
   position: absolute;
-  bottom: 230px;
+  bottom: 10px;
   color: white;
   padding: 10px;
   font-size: 18px;

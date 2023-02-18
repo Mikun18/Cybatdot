@@ -136,9 +136,12 @@ export const Con = styled.div`
   margin: ${(props) => props.margin};
   background-color: ${(props) => props.bg};
   width: ${(props) => props.width};
+  height: ${props => props.height};
   border-top: ${(props) => props.bt};
   border-radius: ${(props) => props.br};
   margin-top: ${props => props.mt};
+  text-align: ${props => props.align};
+  position: ${props => props.position};
 
   @media (max-width: ${({ theme }) => theme.screen.sm}) {
     ${(props) =>

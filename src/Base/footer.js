@@ -12,7 +12,7 @@ export const FooterCon = styled.div`
     }
 
     @media(max-width: ${({theme}) => theme.screen.sm}){
-        padding: 50px 20px;
+        padding: 50px 10px;
     }
 `
 

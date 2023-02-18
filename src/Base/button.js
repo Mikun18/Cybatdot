@@ -36,6 +36,9 @@ export const Button = styled.button`
     ${props => props.blogNav && css`
         color: black;
         background-color: transparent;
+        font-size: ${props => props.fs};
+        display: ${props => props.display};
+        padding: ${props => props.pad};
     `}
 
     @media(max-width: ${({theme}) => theme.screen.md}){
@@ -51,6 +54,10 @@ export const Button = styled.button`
     @media(max-width: ${({theme}) => theme.screen.xsm}){
         ${props => props.sec && css`
             display: none;
+        `}
+
+        ${props => props.blogNav && css`
+            font-size: 10px;
         `}
     }
 `

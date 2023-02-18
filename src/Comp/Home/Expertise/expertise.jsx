@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Slide } from "../../../Base/box";
 import { H1, P } from "../../../Base/text";
+import { Con } from "../../../Base/box";
+import {Button} from "../../../Base/button"
 import Slider from "react-slick";
 import { Card, ImageText } from "./expertise";
 import { SliderButton, SliderDot} from "./expertise";
@@ -95,7 +97,7 @@ const Expertise = () => {
       </H1>
 
       <Slider {...settings}>
-        <Card>
+        <Card primary>
           <img
             src="./Images/security.png"
             alt="Cyber Security"
@@ -118,7 +120,7 @@ const Expertise = () => {
           </div>
         </Card>
 
-        <Card>
+        <Card primary>
           <img src="./Images/engineering.png" alt="Reverse Engineering" />
           <ImageText>Reverse Engineering</ImageText>
 
@@ -137,7 +139,7 @@ const Expertise = () => {
           </div>
         </Card>
 
-        <Card>
+        <Card primary>
           <img src="./Images/computing.png" alt="Cloud Computing" />
           <ImageText>Cloud Computing</ImageText>
 
@@ -156,7 +158,7 @@ const Expertise = () => {
           </div>
         </Card>
 
-        <Card>
+        <Card primary>
           <img
             src="./Images/Blockchain Technology.jpg"
             alt="Blockchain Technology"
@@ -174,7 +176,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/AI&ML.jpg" alt="artificial intelligence" />
           <ImageText>AI&ML</ImageText>
 
@@ -189,7 +192,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/Embedded software.jpg" alt="Embedded software" />
           <ImageText>Embedded software</ImageText>
 
@@ -204,7 +208,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/Mobile Solutions.jpg" alt="Mobile Solutions" />
           <ImageText>Mobile Solutions</ImageText>
 
@@ -220,7 +225,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/Security Testing.jpg" alt="Security Testing" />
           <ImageText>Security Testing</ImageText>
 
@@ -236,7 +242,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/Quaity assurance.jpg" alt="Quality assurance" />
           <ImageText>Quality Assurance</ImageText>
 
@@ -251,7 +258,8 @@ const Expertise = () => {
             </button></Link>
           </div>
         </Card>
-        <Card>
+
+        <Card primary>
           <img src="./Images/Websolutions.jpg" alt="web solutions" />
           <ImageText>Web Solutions</ImageText>
 
@@ -268,6 +276,9 @@ const Expertise = () => {
           </div>
         </Card>
       </Slider>
+      <Con align="center">
+        <Link to="/expertise"><Button sec>View All</Button></Link>
+      </Con>
     </Slide>
   );
 };
