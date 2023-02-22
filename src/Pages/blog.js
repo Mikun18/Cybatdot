@@ -4,6 +4,7 @@ import Hero from '../Comp/Blog/hero'
 import SearchNav from '../Comp/Blog/search'
 import BlogPost from '../Comp/Blog/blogPost'
 import NextPrev from '../Comp/Blog/nextPrev'
+import Footer from '../Comp/Home/footer'
 
 const Blog = () => {
   return (
@@ -13,6 +14,7 @@ const Blog = () => {
         <SearchNav />
         <BlogPost />
         <NextPrev />
+        <Footer />
     </div>
   )
 }

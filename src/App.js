@@ -20,6 +20,7 @@ const Web = lazy(() => import("./Pages/web.js"));
 const Blog = lazy(() => import("./Pages/blog.js"));
 const About = lazy(() => import("./Pages/about.js"));
 const Expertise = lazy(() => import("./Pages/expertise.js"));
+const Innovation = lazy(() => import("./Pages/innovation.js"));
 
 const theme = {
   screen: {
@@ -65,6 +66,7 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/about" element={<About />} />
               <Route path="/expertise" element={<Expertise />} />
+              <Route path="/innovation" element={<Innovation />} />
             </Routes>
           </BrowserRouter>
         </div>

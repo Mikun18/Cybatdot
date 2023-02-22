@@ -53,7 +53,7 @@ export const Button = styled.button`
 
     @media(max-width: ${({theme}) => theme.screen.xsm}){
         ${props => props.sec && css`
-            display: none;
+            /* display: none; */
         `}
 
         ${props => props.blogNav && css`

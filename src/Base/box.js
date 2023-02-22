@@ -142,6 +142,7 @@ export const Con = styled.div`
   margin-top: ${props => props.mt};
   text-align: ${props => props.align};
   position: ${props => props.position};
+  box-shadow: ${props => props.bs};
 
   @media (max-width: ${({ theme }) => theme.screen.sm}) {
     ${(props) =>

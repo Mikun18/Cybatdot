@@ -32,6 +32,10 @@ export const P = styled.p`
   @media(max-width: ${({theme}) => theme.screen.sm}){
     width: 80%;
 
+    ${props => props.innovate && css`
+      width: 90%;
+    `}
+
     ${props => props.primary && css`
       padding: 28px 0;
     `}
@@ -89,6 +93,10 @@ export const H1 = styled.h1`
     color: white;
   `}
 
+  ${props => props.sec && css`
+    color: ${props => props.color};
+  `}
+
   @media(max-width: ${({theme}) => theme.screen.lg}){
     ${props => props.blog && css`
       width: 100%;
@@ -98,6 +106,10 @@ export const H1 = styled.h1`
 
   @media(max-width: ${({theme}) => theme.screen.md}){
     font-size: 50px;
+
+    ${props => props.sec && css`
+      font-size: ${props => props.fs};
+    `}
 
     ${props => props.cybalife && css`
       font-size: 24px;
@@ -155,6 +167,10 @@ export const H1 = styled.h1`
 
     ${props => props.blog && css`
       font-size: 24px;
+    `}
+
+    ${props => props.sec && css`
+      font-size: 20px;
     `}
   }
 `;

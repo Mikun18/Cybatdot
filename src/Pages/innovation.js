@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from '../Comp/Home/navbar'
-import Hero from '../Comp/AllSection/hero'
-import Content from '../Comp/AllSection/content'
+import Hero from '../Comp/Innovation/hero'
+import Content from '../Comp/Innovation/content'
 import Footer from '../Comp/Home/footer'
 
-const Expertise = () => {
+const Innovation = () => {
   return (
     <div>
         <Navbar />
@@ -15,4 +15,4 @@ const Expertise = () => {
   )
 }
 
-export default Expertise
+export default Innovation

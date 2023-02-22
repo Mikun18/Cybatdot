@@ -22,7 +22,7 @@ const Navbar = () => {
             <Button blogNav>Home</Button>
           </Link>
           <Link to="/about"><Button blogNav>About Us</Button></Link>
-          <Button blogNav>Our Innovation</Button>
+          <Link to="/innovation"><Button blogNav>Our Innovation</Button></Link>
           <Link to="/blog">
             <Button blogNav>Blog</Button>
           </Link>
@@ -124,6 +124,7 @@ const SideBar = ({ setShowModal }) => {
             </Button>
           </Link>
 
+          <Link to="/innovation" style={{textDecoration:"none"}}>
           <Button
             blogNav
             style={{ padding: "20px 0", fontSize: "24px", display: "block" }}
@@ -131,6 +132,7 @@ const SideBar = ({ setShowModal }) => {
           >
             Our Innovation
           </Button>
+          </Link>
 
           <Link to="/blog" style={{textDecoration:"none"}}>
             <Button
